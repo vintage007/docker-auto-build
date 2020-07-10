@@ -19,3 +19,4 @@ FROM alpine:3.12.0
 COPY --from=builder ./file.txt ./file.txt
 
 #docker build --build-arg GITHUB_TOKEN=$(cat GITHUB_ACCESS_TOKEN.txt) -t test .
+#Test
